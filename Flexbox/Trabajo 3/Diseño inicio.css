@@ -1,0 +1,88 @@
+body {
+    background-image:url("./fondos-css-para-paginas-web-scaled.jpg") ;
+    background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+
+   display: flex;
+   flex-wrap: wrap  ;
+   justify-content: center;
+   align-content: center;
+   font-family: "New Amsterdam", sans-serif;
+}
+.login-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.login-box {
+    width: 400px;
+    background: white;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(204, 0, 255, 0.1);
+    text-align: center;
+}
+.login-box h2 {
+    margin-bottom: 60px;
+    color:  black;
+    font-size: 40px;
+}
+label {
+    display: block;
+    margin-bottom: 50px;
+    color: #FC523C;
+    font-size: 25px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: 10px solid #ccc;
+    border: 5px;
+    font-size: 15px;
+}
+.login-btn {
+    width: 250px;
+    padding: 10px;
+    background-color: #FC523C;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.login-btn:hover {
+    background-color: blueviolet;
+}
+.social-login {
+    margin: 200px 0;
+}
+.social-login p {
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    margin: 30px 30px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.signup-link {
+    margin-top: 20px;
+}
+.signup-link a {
+    color: #FC523C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
